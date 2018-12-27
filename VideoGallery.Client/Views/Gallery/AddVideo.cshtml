@@ -1,0 +1,25 @@
+﻿@model VideoGallery.Client.ViewModels.AddVideoiewModel
+
+<h2 class="leftMarginSmaller">Add Video</h2>
+
+<form asp-action="AddVideo" method="post" class="form-horizontal" role="form" enctype="multipart/form-data">
+
+    <div class="form-horizontal leftMarginDefault">
+        
+        <div class="form-group">
+            <div>You video's title</div>
+            <input asp-for="Title" class="form-control" />
+        </div>
+        
+        <div class="form-group">
+            <div>The video file</div>
+            <input asp-for="Files" type="file" class="form-control" accept=".jpg,.jpeg"/>
+        </div>
+
+        <div class="form-group">
+            <div>
+                <input type="submit" class="btn btn-primary" value="Add image" />
+            </div>
+        </div>
+    </div>
+</form>

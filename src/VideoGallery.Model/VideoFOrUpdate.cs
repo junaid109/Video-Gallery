@@ -5,7 +5,7 @@ using System.Text;
 
 namespace VideoGallery.Model
 {
-    class VideoForUpdate
+    public class VideoForUpdate
     {
         [Required]
         [MaxLength(150)]
