@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoGallery.Model", "src\VideoGallery.Model\VideoGallery.Model.csproj", "{226B95C9-A9A6-4DF7-992C-A5945AF3AF0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoGallery.Client", "VideoGallery.Client\VideoGallery.Client.csproj", "{853CAE94-28CA-4ED9-AEE7-D3395D868248}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoGallery.Client", "VideoGallery.Client\VideoGallery.Client.csproj", "{853CAE94-28CA-4ED9-AEE7-D3395D868248}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoGallery.API", "VideoGallery.API\VideoGallery.API.csproj", "{ADC392C5-D6F2-46B1-BD34-7A27848B7201}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoGallery.API", "VideoGallery.API\VideoGallery.API.csproj", "{ADC392C5-D6F2-46B1-BD34-7A27848B7201}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

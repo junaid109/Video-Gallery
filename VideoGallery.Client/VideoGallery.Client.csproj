@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\src\VideoGallery.Model\VideoGallery.Model.csproj" />
+    <ProjectReference Include="..\VideoGallery.API\VideoGallery.API.csproj" />
   </ItemGroup>
 
 </Project>

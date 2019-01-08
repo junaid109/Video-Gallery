@@ -15,4 +15,4 @@ namespace VideoGallery.Model
         public byte[] Bytes { get; set; }
     }
 }
-}
+

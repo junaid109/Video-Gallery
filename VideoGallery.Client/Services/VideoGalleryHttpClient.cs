@@ -7,12 +7,12 @@ using VideoGallery.Client.Services;
 
 namespace VideoGallery.Client.Services
 {
-    public class ImageGalleryHttpClient : IVideoGalleryHttpClient
+    public class VideoGalleryHttpClient : IVideoGalleryHttpClient
     {
         private readonly IHttpContextAccessor _httpContextAccessor;
         private HttpClient _httpClient = new HttpClient();
 
-        public ImageGalleryHttpClient(IHttpContextAccessor httpContextAccessor)
+        public VideoGalleryHttpClient(IHttpContextAccessor httpContextAccessor)
         {
             _httpContextAccessor = httpContextAccessor;
         }
