@@ -17,6 +17,10 @@ namespace VideoGallery.API.Entities
         public string FileName { get; set; }
 
         [Required]
+        [MaxLength(50)]
+        public string OwnerId { get; set; }
+
+        [Required]
         [MaxLength(150)]
         public string Description { get; set; }
 
