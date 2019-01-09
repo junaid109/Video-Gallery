@@ -6,11 +6,11 @@ using VideoGallery.API.Entities;
 
 namespace VideoGallery.API.Services
 {
-    public class VideoGalleryRepositorycs : IVideoGalleryRepository, IDisposable
+    public class VideoGalleryRepository : IVideoGalleryRepository, IDisposable
     {
         VideoGalleryContext _context;
 
-        public VideoGalleryRepositorycs(VideoGalleryContext context)
+        public VideoGalleryRepository(VideoGalleryContext context)
         {
             _context = context;
         }
