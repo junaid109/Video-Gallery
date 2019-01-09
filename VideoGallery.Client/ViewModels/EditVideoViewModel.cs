@@ -2,7 +2,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace ImageGallery.Client.ViewModels
+namespace VideoGallery.Client.ViewModels
 {
     public class EditVideoViewModel
     {

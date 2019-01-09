@@ -1,20 +1,20 @@
-﻿@model ImageGallery.Client.ViewModels.GalleryIndexViewModel
+﻿@model VideoGallery.Client.ViewModels.GalleryIndexViewModel
 
 <div class="bottomMarginDefault">
 </div>
 
 <div class="container">
-    @foreach (var item in Model.Images)
+    @foreach (var item in Model.Videos)
     {
         <div class="pull-left col-md-4">
             <div>
-                <img class="thumbnailImage" src="@("http://localhost:1601/images/" + item.FileName)" />
+                <img class="thumbnailImage" src="@("http://localhost:1601/videos/" + item.FileName)" />
             </div>
             <div>
                 <div class="h5">@item.Title</div>
                 <div class="bottomMarginDefault">
-                    <a asp-action="EditImage" asp-controller="Gallery" asp-route-id="@item.Id">Edit title</a> |
-                    <a asp-action="DeleteImage" asp-controller="Gallery" asp-route-id="@item.Id">Delete image</a>
+                    <a asp-action="EditVideo" asp-controller="VideoGallery" asp-route-id="@item.Id">Edit title</a> |
+                    <a asp-action="DeleteVideo" asp-controller="VideoGallery" asp-route-id="@item.Id">Delete Video</a>
                 </div>
             </div>
         </div>

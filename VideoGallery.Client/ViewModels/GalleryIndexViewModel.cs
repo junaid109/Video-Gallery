@@ -1,7 +1,7 @@
 ﻿using VideoGallery.Model;
 using System.Collections.Generic;
 
-namespace ImageGallery.Client.ViewModels
+namespace VideoGallery.Client.ViewModels
 {
     public class GalleryIndexViewModel
     {

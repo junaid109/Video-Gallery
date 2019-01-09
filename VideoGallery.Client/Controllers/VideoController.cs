@@ -1,4 +1,4 @@
-﻿using ImageGallery.Client.ViewModels;
+﻿using VideoGallery.Client.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System;
